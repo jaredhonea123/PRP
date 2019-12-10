@@ -1,0 +1,51 @@
+
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+p {
+  font-size: 22px;
+}
+
+li {
+  font-size: 22px;
+}
+
+.column-full {
+  float: left;
+  width: 100%;
+  min-width: 300px;
+  padding: 10px;
+}
+
+.column-half {
+  float: left;
+  width: 44%;
+  min-width: 300px;
+  min-height: 400px;
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 3px;
+  border-width: thick;
+  color: black;
+  margin: 20px;
+}
+
+.column-third {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
